@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: MIT
+-- Copyright 2025 robertogrows
+
 local M = {}
 
 --- language-independent query for syntax errors and missing elements
