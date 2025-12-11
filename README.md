@@ -8,3 +8,5 @@ Query `ERROR` and `MISSING` nodes from Treesitter to emit Neovim diagnostics abo
 This plugin is a continuation of the idea from [treesitter diagnostics](https://www.reddit.com/r/neovim/comments/1ir069p/treesitter_diagnostics/)
 thread by [u/robertogrows](https://www.reddit.com/user/robertogrows) on [r/neovim](https://www.reddit.com/r/neovim/)
 * [v1 (2025-02-16)](https://pastebin.com/x0pSjk9c)
+* [v2 (2025-02-17)](https://pastebin.com/kUSSXzNQ)
+  * _"much faster than previous hack due to the special nature of errors, avoids unnecessary queries"_

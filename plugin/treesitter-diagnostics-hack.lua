@@ -20,8 +20,8 @@ local function diagnose(args)
         return
       end
       parser:for_each_tree(function(tree, ltree)
-        -- skip languages which never error and are very common injections
-        if ltree:lang() ~= 'comment' and ltree:lang() ~= 'markdown' then
+        -- only process trees containing errors
+        if tree:root():has_error() then
           for _, node in error_query:iter_captures(tree:root(), args.buf) do
             local lnum, col, end_lnum, end_col = node:range()
 
