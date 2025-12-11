@@ -10,3 +10,6 @@ thread by [u/robertogrows](https://www.reddit.com/user/robertogrows) on [r/neovi
 * [v1 (2025-02-16)](https://pastebin.com/x0pSjk9c)
 * [v2 (2025-02-17)](https://pastebin.com/kUSSXzNQ)
   * _"much faster than previous hack due to the special nature of errors, avoids unnecessary queries"_
+* [v3 (2025-12-10)](https://pastebin.com/ayZ2UMYf)
+  * _"some parsers (...) create lots of errors; injections can be quite noisy so disabled those too"_
+  * _"some changes to optimize the performance as well"_
