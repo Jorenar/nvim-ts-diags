@@ -3,6 +3,8 @@ Neovim Treesitter diagnostics
 
 Query `ERROR` and `MISSING` nodes from Treesitter to emit Neovim diagnostics about syntax errors
 
+![screenshot](screenshot.png)
+
 ## Setup
 
 ```vim
